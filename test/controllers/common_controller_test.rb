@@ -1,13 +1,19 @@
 require 'test_helper'
 
 class CommonControllerTest < ActionDispatch::IntegrationTest
+
   test "should get home" do
-    get common_home_url
+    get root_url
     assert_response :success
   end
 
   test "should get help" do
-    get common_help_url
+    get help_url
+    assert_response :success
+  end
+
+  test "should get about" do
+    get about_path
     assert_response :success
   end
 

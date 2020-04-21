@@ -9,6 +9,28 @@
   </head>
 
   <body>
-    <%= yield %>
+    <header>
+      <div class="top">
+        <h1>BLOG(仮)</h1>
+        <div class="lists">
+          <ul>
+            <li>投稿一覧</li>
+            <li>サインアップ</li>
+            <li>ログイン</li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <div class="main">
+      <%= yield %>
+    </div>
+    <footer>
+      <div class="bottom">
+        <ul>
+          <li>Help</li>
+          <li>About</li>
+        </ul>
+      </div>
+    </footer>
   </body>
 </html>
