@@ -1,24 +1,13 @@
-# README
+BLOGサービスを作ります。
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Webエンジニアになるための最初のアウトプットとして、
+シンプルながらも確りしたものを作って、
+今後の糧となるような経験を作っていきたいと思います。
 
-Things you may want to cover:
+・ログイン機能
+・アカウント登録機能
+・ブログ投稿機能
+・ユーザー/ブログ関連付け
+　etc・・・
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+期限：5/11まで
